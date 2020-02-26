@@ -88,7 +88,7 @@ $(function () {
     });
 
 
-    function initMap() {
+   /* function initMap() {
   
         // Метка на карте + координаты
         var myLatLng = {lat: 40.68669113, lng: -73.97347927};
@@ -287,7 +287,7 @@ $(function () {
           ]
         });
     }
-
+*/
     var mixer = mixitup('.works__gallery');
 
     $('.works__list a').on('click', function () {
