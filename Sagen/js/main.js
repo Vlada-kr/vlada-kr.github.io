@@ -17,6 +17,7 @@ $(function () {
 
     $('.header__slider').on('swipe', function(event, slick, direction){
         
+        
       });
 
     var block_show1 = false;
