@@ -26,7 +26,7 @@
   </div>
 
   <div class="main" id="fullpage">
-    <header class="section header" id="home">
+    <header class="section header">
       <div class="header-img__inner">
         <div class="header__img header__img-top-left" style="background-image: url(img/home-img-top-left.jpg);"></div>
         <div class="header__img header__img-top-center" style="background-image: url(img/home-img-top-center.jpg);">
@@ -44,7 +44,7 @@
         </div>
       </div>
     </header>
-    <section class="section second-page">
+    <section class="section second-page" >
       <div class="page__name">
         <span>о нас</span>
       </div>
@@ -228,7 +228,7 @@
       </div>
     </section>
 
-    <section class="section third-page">
+    <section class="section third-page" >
       <div class="page__name">
         <span>Работы</span>
       </div>
@@ -369,7 +369,7 @@
       </div>
     </section>
 
-    <section class="section fourth-page">
+    <section class="section fourth-page" >
       <div class="page__name">
         <span>Услуги</span>
       </div>
@@ -418,7 +418,7 @@
       </div>
     </section>
 
-    <section class="section fifth-page">
+    <section class="section fifth-page" >
       <div class="page__name">
         <span>Новости</span>
       </div>
@@ -521,7 +521,7 @@
         </div>
       </div>
     </section>
-    <footer class="section footer">
+    <footer class="section footer" >
       <div class="page__name">
         <span>Контакты</span>
       </div>
@@ -563,7 +563,7 @@
           <div class="footer__form">
             <div class="footer__form-title">Подписаться на новости</div>
             <form>
-              <input type="text">
+              <input type="text" placeholder="E-mail">
               <button type="submit">Подписаться</button>
             </form>
           </div>
@@ -582,12 +582,12 @@
   <div id="modal">
     <nav class="header__menu">
       <ul class="header__menu-list">
-        <li><a href="#home">Главная</a></li>
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#services">Услуги</a></li>
-        <li><a href="#works">Работы</a></li>
-        <li><a href="#news">Новости</a></li>
-        <li><a href="#contact">Контакты</a></li>
+        <li data-menuanchor="home" class="active"><a href="#home" >Главная</a></li>
+        <li data-menuanchor="about"><a href="#about">О нас</a></li>
+        <li data-menuanchor="works"><a href="#works">Работы</a></li>
+        <li data-menuanchor="services"><a href="#services">Услуги</a></li>
+        <li data-menuanchor="news"><a href="#news">Новости</a></li>
+        <li data-menuanchor="contact"><a href="#contact">Контакты</a></li>
       </ul>
     </nav>
   </div>
