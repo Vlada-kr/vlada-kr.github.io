@@ -1,0 +1,336 @@
+@media (max-width: 1500px) {
+    .pulse {
+        position: absolute;
+        left: 12.823vw;
+    }
+}
+@media (max-width: 1340px) {
+    .content__facts-facts {
+        right: 5%;
+        top: 22%;
+    }
+    .content__facts-client {
+        right: 30%;
+        position: absolute;
+        top: 45%;
+    }
+    .content__title {
+        font-size: 50px;
+    }
+    .content__text {
+        max-width: 530px;
+        font-size: 25px;
+    }
+    .content__main {
+        max-width: 570px;
+    }
+    .cost__ref {
+        max-width: 350px;
+        height: 80px;
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    .cost__ref::before {
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+    }
+    .content__cost-cosial {
+        height: 80px;
+    }
+    .soc_icon {
+        top: 80px;
+    }
+    .soc_icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .price__list a {
+        font-size: 16px;
+    }
+    .content__items {
+        margin-left: -35px;
+    }
+    .content__item {
+        flex-basis: calc(33.333% - 35px);
+        margin-left: 35px;
+        font-size: 16px;
+        padding-top: 50px;
+    }
+    .content {
+        margin-left: 95px;
+    }
+    .header__tel a {
+        font-size: 18px;
+    }
+    .header__consultation {
+        font-size: 16px;
+    }
+    .header__watsapp a {
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .content__circle {
+        width: 65%;
+        right: -25%;
+    }
+    .content__london {
+        width: 115px;
+        height: 540px;
+    }
+    .content__man {
+        background-position: 5px 70px;
+        width: 42%;
+        height: 72%;
+        right: -5%;
+    }
+    .content__usa {
+        background-position: 10px 0px;
+        width: 216px;
+        height: 610px;
+        right: -40px;
+    }
+    .content__owner {
+        left: 61%;
+    }
+}
+@media (max-width: 1024px) {
+    .content__facts-facts {
+        right: 2%;
+        top: 56%;
+    }
+    .content__facts-item {
+        width: 100px;
+        font-size: 11px;
+    }
+    .content__facts-item span {
+        font-size: 40px;
+    }
+    .content__facts-client {
+        right: 30%;
+        top: 75%;
+    }
+    .pulse {
+        left: 15.823vw;
+    }
+    .header__watsapp span {
+        display: none;
+    }
+    .header__watsapp a > div > img:nth-child(1) {
+        display: none;
+    }
+    .header__watsapp a > div > img:nth-child(2) {
+        transform: translate(0px, 0px);
+    }
+    .header__watsapp a:hover > div > img:nth-child(2) {
+        transform: translate(0px, 0px);
+    }
+    .header__watsapp a {
+        width: 60px;
+        height: 60px;
+        background-color: rgb(234, 149, 115);
+        border: none;
+    }
+    .header__watsapp a:hover {
+        border: none;
+    }
+    .content__photo {
+        height: 25px;
+    }
+    .content__title {
+        text-align: center;
+        font-size: 40px;
+    }
+    .content__main {
+        max-width: 100%;
+    }
+    .content__icon {
+        display: none;
+    }
+    .content {
+        margin-left: 0px;
+    }
+    .content__inner {
+        padding: 0 15px;
+    }
+    .content__text {
+        text-align: center;
+        max-width: 100%;
+        font-size: 20px;
+    }
+    .content__cost__inner {
+        justify-content: center;
+    }
+    .content__man {
+        background-size: cover;
+        background-position: 4px 65px;
+        width: 33%;
+        height: 38%;
+        right: -5%;
+    }
+    .content__london {
+        width: 75px;
+        height: 335px;
+        right: 20%;
+    }
+    .content__usa {
+        background-position: 10px 70px;
+        width: 177px;
+        height: 410px;
+        right: -40px;
+    }
+    .content__france {
+        width: 230px;
+        height: 350px;
+        right: -90px;
+        bottom: 120px;
+    }
+    .content__circle {
+        z-index: -1;
+        width: 35%;
+        background-position: 0px 124px;
+        width: 70%;
+        height: 400px;
+        right: -32%;
+    }
+    .content__owner {
+        bottom: 85px;
+        left: 69%;
+    }
+    .content__owner-name {
+        width: 175px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .content__owner-position {
+        width: 175px;
+        height: 50px;
+        font-size: 14px;
+        top: -5px;
+        right: -50px;
+        text-align: center;
+    }
+    .price__list {
+        text-align: center;
+    }
+    .price__list a {
+        font-size: 14px;
+    }
+    .content__items {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .content__item {
+        flex-basis: calc(100%);
+        margin-left: 0px;
+        font-size: 16px;
+        padding-top: 40px;
+    }
+    .content__item + .content__item {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .content__facts-facts, .content__facts-client{
+        display: none;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .content__circle,
+    .content__london,
+    .content__france,
+    .content__usa,
+    .content__man {
+        display: none;
+    }
+    .content__items {
+        margin: 0 auto;
+        max-width: 315px;
+    }
+    .content__item {
+        flex-basis: auto;
+        margin-left: 0;
+        padding-top: 0;
+        padding-left: 50px;
+    }
+    .content__item::before {
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .content__photo {
+        height: 130px;
+    }
+    .content__title {
+        text-align: center;
+        font-size: 35px;
+    }
+    .content__text {
+        font-size: 18px;
+    }
+    .cost__ref {
+        max-width: 200px;
+        height: 80px;
+        padding-left: 35px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .cost__ref::before {
+        left: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .content__cost-cosial {
+        cursor: pointer;
+        font-size: 16px;
+        width: 80px;
+        padding-right: 10px;
+    }
+    .fa-chevron-down {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+    }
+    .soc_icon {
+        width: 80px;
+    }
+    .content__owner {
+        display: none;
+    }
+    .header__tel a {
+        font-size: 14px;
+    }
+    .header__consultation {
+        font-size: 14px;
+    }
+    .header__watsapp a {
+        width: 40px;
+        height: 40px;
+    }
+    .header__watsapp img {
+        width: 20px;
+        height: 20px;
+    }
+    .header__logo img {
+        width: 80px;
+    }
+    .header__watsapp {
+        margin-right: 15px;
+    }
+    .header__info {
+        width: 180px;
+    }
+    .soc_icon a + a {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .content__photo {
+        height: 55px;
+    }
+    .content__title {
+        font-size: 30px;
+    }
+}
