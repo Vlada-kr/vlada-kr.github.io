@@ -286,7 +286,7 @@ input:focus {
 .content__cost-wrapper {
     position: relative;
 }
-.content__cost-wrapper:hover .soc_icon {
+.soc_icon.active {
     padding: 15px 0;
     border: 2px solid #fff;
     height: auto;

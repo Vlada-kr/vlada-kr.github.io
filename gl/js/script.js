@@ -40,3 +40,11 @@ $('.modal_content > span,.modal_close').click(function () {
 $('.open_modal').click(function () {
     $('.modal_window').removeClass('close_modal');
 })
+$('.content__cost-wrapper').click(function () {
+    if ( $('.soc_icon').hasClass('active') ) {
+        $('.soc_icon').removeClass('active');
+    } else {
+        $('.soc_icon').addClass('active');    
+    }
+
+})
