@@ -96,6 +96,77 @@
     }
 }
 @media (max-width: 1024px) {
+    .modal_content {
+        width: 88.854vw;
+        height: auto;
+        border-radius: 1.365vw;
+        padding-bottom: 8vw;
+    }
+    .modal_content > span {
+        font-size: 4.406vw;
+        padding: 2.833vw;
+    }
+    .modal_title h3 {
+        color: rgb(255, 255, 255);
+        font-size: 5.083vw;
+        font-weight: 600;
+        margin-top: 6.385vw;
+        margin-bottom: 0;
+    }
+    .modal_title h4 {
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-size: 3.042vw;
+        font-weight: 400;
+        margin-left: 0;
+    }
+    .modal_title h4 div {
+        width: 3.302vw;
+        height: 3.302vw;
+        margin-right: 2.563vw;
+    }
+    .modal_content form input {
+        width: 71.667vw;
+        margin-bottom: 4.823vw;
+        padding-left: 2.083vw;
+        height: 12.906vw;
+        border-radius: 1.365vw;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 3.042vw;
+        font-weight: 300;
+        border: 0;
+    }
+    .btn_type3 {
+        display: flex;
+        width: 73.75vw;
+        height: 12.427vw;
+        border: 0;
+        font-size: 3.042vw;
+        justify-content: center;
+        border-radius: 1.365vw;
+    }
+    .btn_type3 div {
+        width: 4.771vw;
+        height: auto;
+        margin-left: 0vw;
+        margin-right: 3.042vw;
+    }
+    .desctiption_form span {
+        display: block;
+        font-size: 2.729vw;
+        color: rgb(255, 255, 255);
+    }
+    .desctiption_form div {
+        width: 2.99vw;
+        height: auto;
+        margin-right: 2.521vw;
+    }
+    .desctiption_form {
+        display: flex;
+        justify-content: center;
+        margin-top: 3.823vw;
+    }
     .content__facts-facts {
         right: 2%;
         top: 56%;
@@ -232,7 +303,8 @@
     }
 }
 @media (max-width: 767px) {
-    .content__facts-facts, .content__facts-client{
+    .content__facts-facts,
+    .content__facts-client {
         display: none;
     }
     .container {
